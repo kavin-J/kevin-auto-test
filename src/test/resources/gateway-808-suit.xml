@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="808网关服务测试" parallel="classes" thread-count="3">
+    <test verbose="2" preserve-order="true" name="gateway-808-test">
+        <packages>
+            <package name="com.kevin.test.gateway.p808.*"/>
+        </packages>
+    </test>
+</suite>
