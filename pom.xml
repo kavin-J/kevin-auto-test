@@ -69,7 +69,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
 					<!--<forkMode>once</forkMode>-->
-					<argLine>-Dfile.encoding=UTF-8</argLine>
+					<!--<argLine>-Dfile.encoding=UTF-8</argLine>-->
 					<!--<testFailureIgnore>true</testFailureIgnore>-->
 					<!--<systemPropertyVariables>
 						<myvariablename></myvariablename>
